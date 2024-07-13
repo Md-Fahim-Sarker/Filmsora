@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="#top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.png" alt="Filmsora logo" width="169px" height="44px">
+      </a>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.png" alt="Filmsora logo" width="169px" height="44px">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./movie.html" class="navbar-link">Movie</a>
+          </li>
+
+           <li>
+            <a href="https://userfahim.github.io/My-About/" class="navbar-link">Developer</a>
+          </li>
+           
+
+        </ul>
+
+        
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #MOVIE DETAIL
+      -->
+
+      <section class="movie-detail">
+        <div class="container">
+
+          <figure class="movie-detail-banner">
+
+  <div class="player-container">
+    <video id="player" playsinline data-plyr-poster="./assets/images/poster.jpg">
+      <source src="" type="video/mp4">
+      </video>
+  </div>
+          </figure>
+
+          <div class="movie-detail-content">
+
+            <p id="detail-subtitle" class="detail-subtitle"></p>
+
+            <h1 id="text1" class="h1 detail-title">
+              Film <strong>Sora</strong>
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">PG 13</div>
+
+                <div class="badge badge-outline">HD</div>
+              </div>
+
+              <div class="ganre-wrapper">
+                <a id="ca-1" href="#"></a>
+
+                <a id="ca-2" href="#"></a>
+
+                <a id="ca-3" href="#"></a>
+
+                <a id="ca-4" href="#"></a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time id="years" datetime="2021"></time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time id="min" datetime="PT115M"></time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <p id="storyline" class="storyline">
+              
+            </p>
+
+            <div class="details-actions">
+
+              <button id="copyButton" class="share">
+             
+                <i class="fa fa-copy" style="font-size:24px;color:white"></i>
+
+                <span>Copy Link</span>
+              </button>
+
+              <div class="title-wrapper">
+                <p class="title">Share Video</p>
+
+                <p class="text">Filmsora</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TV SERIES
+      -->
+
+      <section class="tv-series">
+        <div class="container">
+
+          <p class="section-subtitle">Best Movies</p>
+
+          <h2 class="h2 section-title">World Best Movies</h2>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="?id=tiger-zinda-hai">
+                  <figure class="card-banner">
+                    <img src="./assets/images/tiger_zinda_hai.jpg" alt="Tiger Zinda Hai">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="?id=tiger-zinda-hai">
+                    <h3 class="card-title">Tiger Zinda Hai</h3>
+                  </a>
+
+                  <time datetime="2022">2017</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">161 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>5.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="?id=pushpa-1">
+                  <figure class="card-banner">
+                    <img src="./assets/images/pushpa_the_rise_part_1__4k_.jpg" alt="Pushpa Part 1">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="?id=pushpa-1">
+                    <h3 class="card-title">Pushpa: The Rise</h3>
+                  </a>
+
+                  <time datetime="2022">2021</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT59M">179 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="?id=raatchasi">
+                  <figure class="card-banner">
+                    <img src="./assets/images/raatchasi.jpg" alt="Raatchasi">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="?id=raatchasi">
+                    <h3 class="card-title">Raatchasi</h3>
+                  </a>
+
+                  <time datetime="2022">2019</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">134 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="?id=krrish-3">
+                  <figure class="card-banner">
+                    <img src="./assets/images/krrish_3.jpg" alt="Krrish 3">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="?id=krrish-3">
+                    <h3 class="card-title">Krrish 3</h3>
+                  </a>
+
+                  <time datetime="2017">2013</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT70M">152 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.png" alt="Filmsora logo" width="169px" height="44px">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Movie</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="https://userfahim.github.io/My-About/">Md. Fahim Sarker</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/video.js"></script>
+  <script src="assets/js/share.js"></script>
+  <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+  <script src="assets/js/player.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
