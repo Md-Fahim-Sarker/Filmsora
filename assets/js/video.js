@@ -4,7 +4,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const videoId = urlParams.get('id');
 
 if (videoId === 'kgf1') {
-  video.src = "http://10.16.100.202/ftps10/iccftps10sasd5/Movies/South Indian (Hindi Dubbed)/K.G.F Chapter 1 (2018) 1080p BluRay.mp4";
+  video.src = "10.16.100.202/ftps10/iccftps10sasd5/Movies/South Indian (Hindi Dubbed)/K.G.F Chapter 1 (2018) 1080p BluRay.mp4";
   video.play();
   document.title = "K.G.F Chapter 1 2018";
   document.getElementById("ca-1").textContent = "Action,";
@@ -21,7 +21,7 @@ if (videoId === 'kgf1') {
 
 
 } else if (videoId === 'kgf2') {
-  video.src = " http://10.16.100.202/ftps10/iccftps10sasd3/Movies/South Indian (Hindi Dubbed)/K.G.F Chapter 2 (2022) 1080p WEBDL.mp4";
+  video.src = " 10.16.100.202/ftps10/iccftps10sasd3/Movies/South Indian (Hindi Dubbed)/K.G.F Chapter 2 (2022) 1080p WEBDL.mp4";
   video.play();
   document.title = "K.G.F Chapter 2 2022";
 
@@ -38,7 +38,7 @@ if (videoId === 'kgf1') {
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "Chapter 2");
 
 } else if (videoId === 'pk') {
-  video.src = 'http://10.16.100.214/iccftps14/iccftps14sasd2/Movies/Hindi/PK%20(2014)%20720p%20BluRay.mp4';
+  video.src = '10.16.100.214/iccftps14/iccftps14sasd2/Movies/Hindi/PK%20(2014)%20720p%20BluRay.mp4';
   video.play();
   document.title = "PK 2014";
 
@@ -55,7 +55,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "");
 
 } else if (videoId === '3-idiots') {
-  video.src = 'http://10.16.100.206/ftps3/ftps3d2/Movies/Hindi/3 Idiots (2009) 1080p BluRay.mp4';
+  video.src = '10.16.100.206/ftps3/ftps3d2/Movies/Hindi/3 Idiots (2009) 1080p BluRay.mp4';
   video.play();
   document.title = "3 Idiots 2009";
 
@@ -72,7 +72,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "Idiots");
 
 } else if (videoId === 'robot-2010') {
-  video.src = 'http://10.16.100.212/iccftps12/iccftps12sasd9/Movies/4K/South Indian/Enthiran (Robot) (2010) 2160p WEBDL.mkv';
+  video.src = '10.16.100.212/iccftps12/iccftps12sasd9/Movies/4K/South Indian/Enthiran (Robot) (2010) 2160p WEBDL.mkv';
   video.play();
   document.title = "ENTHIRAN (ROBOT) 2010";
 
@@ -89,7 +89,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "Robot");
 
 } else if (videoId === 'tiger-zinda-hai') {
-  video.src = 'http://10.16.100.202/ftps10/iccftps10sasd10/Movies/Hindi/Tiger Zinda Hai (2017) 720p BluRay.mp4';
+  video.src = '10.16.100.202/ftps10/iccftps10sasd10/Movies/Hindi/Tiger Zinda Hai (2017) 720p BluRay.mp4';
   video.play();
   document.title = "Tiger Zinda Hai 2017";
 
@@ -106,7 +106,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "");
 
 } else if (videoId === 'krrish-3') {
-  video.src = 'http://10.16.100.206/ftps3/ftps3d6/Movies/Hindi/Krrish%203%20(2013)%201080p%20BluRay.mp4';
+  video.src = '10.16.100.206/ftps3/ftps3d6/Movies/Hindi/Krrish%203%20(2013)%201080p%20BluRay.mp4';
   video.play();
   document.title = "Krrish 3 2013";
 
@@ -123,7 +123,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "3");
 
 } else if (videoId === 'pushpa-1') {
-  video.src = 'http://10.16.100.213/iccftps13/iccftps13sasd8/Movies/4K/South Indian/Pushpa The Rise Part 01 (2021) 2160p UHD WEBRip x264 5.1.mp4';
+  video.src = '10.16.100.213/iccftps13/iccftps13sasd8/Movies/4K/South Indian/Pushpa The Rise Part 01 (2021) 2160p UHD WEBRip x264 5.1.mp4';
   video.play();
   document.title = "Pushpa part 1 2021";
 
@@ -140,7 +140,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "The Rise");
 
 } else if (videoId === 'raatchasi') {
-  video.src = 'http://10.16.100.206/ftps3/ftps3d5/Movies/South Indian (Hindi Dubbed)/Raatchasi (2019) 1080p WEBDL.mp4';
+  video.src = '10.16.100.206/ftps3/ftps3d5/Movies/South Indian (Hindi Dubbed)/Raatchasi (2019) 1080p WEBDL.mp4';
   video.play();
   document.title = "Raatchasi 2019";
 
@@ -157,7 +157,7 @@ document.getElementById("ca-1").textContent = "Comedy,";
   document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML.replace(/Sora/, "");
 
 } else if (videoId === 'krrish') {
-  video.src = 'http://10.16.100.206/ftps3/ftps3d8/Movies/Hindi/Krrish (2006) 720p BluRay.mkv';
+  video.src = '10.16.100.206/ftps3/ftps3d8/Movies/Hindi/Krrish (2006) 720p BluRay.mkv';
   video.play();
   document.title = "Krrish 2016";
 
